@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sagonae/static/css/main.073c9b0a.css",
+    "main.js": "/sagonae/static/js/main.d1bedc4d.js",
+    "static/js/787.a0954ecc.chunk.js": "/sagonae/static/js/787.a0954ecc.chunk.js",
+    "service-worker.js": "/sagonae/service-worker.js",
+    "index.html": "/sagonae/index.html",
+    "main.073c9b0a.css.map": "/sagonae/static/css/main.073c9b0a.css.map",
+    "main.d1bedc4d.js.map": "/sagonae/static/js/main.d1bedc4d.js.map",
+    "787.a0954ecc.chunk.js.map": "/sagonae/static/js/787.a0954ecc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d1bedc4d.js"
+  ]
+}
