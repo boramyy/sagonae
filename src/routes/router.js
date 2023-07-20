@@ -3,7 +3,11 @@ import MainPage, { mainPageLoader } from "../pages/MainPage";
 import ParttimerPage, { parttimerPageLoader } from "../pages/ParttimerPage";
 import ParttimerDetailPage, { parttimerDetailPageLoader } from "../pages/ParttimerDetailPage";
 
-export const router = createBrowserRouter([
+const { REACT_APP_ENV } = process.env;
+const isDev = REACT_APP_ENV === 'DEV';
+const appDefaultPath = isDev ? '' : '/sagonae';
+
+const routes = [
   {
     path: '/',
     element: <MainPage />,
@@ -21,4 +25,8 @@ export const router = createBrowserRouter([
       }
     ]
   },
-])
+]
+
+export const router = createBrowserRouter(routes, {
+  basename: appDefaultPath,
+})
