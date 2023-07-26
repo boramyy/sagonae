@@ -1,16 +1,19 @@
 import Header from "../organisms/Header";
 
 function DefaultTemplate(props) {
-
   const { id, title, children } = props;
 
-  return <div id={id}>
-    <Header title={title} />
-    { children }
-    <footer>
-      footer~!
-    </footer>
-  </div>
+  return (
+    <>
+      <Header title={title} />
+      <div id={id}>
+        { children }
+        <footer>
+          footer~!
+        </footer>
+      </div>
+    </>
+  )
 }
 
 export default DefaultTemplate
