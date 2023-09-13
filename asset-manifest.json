@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/sagonae/static/css/main.073c9b0a.css",
-    "main.js": "/sagonae/static/js/main.fe7a8eb9.js",
+    "main.css": "/sagonae/static/css/main.64550782.css",
+    "main.js": "/sagonae/static/js/main.69cc44f3.js",
     "static/js/787.a0954ecc.chunk.js": "/sagonae/static/js/787.a0954ecc.chunk.js",
+    "static/media/test.png": "/sagonae/static/media/test.63c8f7097a0b2edf764c.png",
     "service-worker.js": "/sagonae/service-worker.js",
     "index.html": "/sagonae/index.html",
-    "main.073c9b0a.css.map": "/sagonae/static/css/main.073c9b0a.css.map",
-    "main.fe7a8eb9.js.map": "/sagonae/static/js/main.fe7a8eb9.js.map",
+    "main.64550782.css.map": "/sagonae/static/css/main.64550782.css.map",
+    "main.69cc44f3.js.map": "/sagonae/static/js/main.69cc44f3.js.map",
     "787.a0954ecc.chunk.js.map": "/sagonae/static/js/787.a0954ecc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fe7a8eb9.js"
+    "static/css/main.64550782.css",
+    "static/js/main.69cc44f3.js"
   ]
 }
